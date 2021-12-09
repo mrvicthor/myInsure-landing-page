@@ -1,0 +1,69 @@
+@media only screen and (min-width: 0px) and (max-width: 1140px) {
+  .hamburgerWrapper button.nav-button {
+    background: url(images/icon-hamburger.svg);
+
+    height: 1.8em;
+    width: 1.8em;
+    background-size: 25px, 100%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    z-index: 999;
+    cursor: pointer;
+    border: 0 none;
+  }
+
+  button.nav-button.open {
+    background: url(images/icon-close.svg);
+    background-size: 25px, 100%;
+    background-repeat: no-repeat;
+    background-position: center, center;
+  }
+  .hamburgerWrapper {
+    margin-top: 8px;
+    margin-left: auto;
+  }
+
+  .primary-nav {
+    display: none;
+  }
+
+  .primary-nav.open {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(270, 9%, 17%);
+    background-image: url(images/bg-pattern-mobile-nav.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .primary-nav.open nav {
+    margin: 1.8em 0;
+    width: 100%;
+  }
+  .primary-nav.open nav ul {
+  }
+  .primary-nav.open nav ul li {
+    list-style: none;
+    margin: 1em 5%;
+  }
+
+  .primary-nav.open nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    height: 2.3em;
+    border: transparent;
+    color: #fff;
+    padding: 10px 0;
+    transition: all ease-in-out 1s;
+  }
+
+  .primary-nav.open nav ul li a:hover {
+    border: 1px solid #fff;
+    width: 100%;
+  }
+}

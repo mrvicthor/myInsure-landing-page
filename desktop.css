@@ -1,0 +1,231 @@
+@media only screen and (min-width: 1140px) {
+  .navbar {
+    z-index: 999;
+  }
+  header > div {
+    z-index: 999;
+  }
+
+  .navWrapper {
+    display: none;
+  }
+  .active-state {
+  }
+  .desktop-nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    flex: 1;
+    gap: 0.8em;
+    z-index: 999;
+  }
+  .desktop-nav a {
+    text-decoration: none;
+    border: transparent;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    color: hsl(216, 30%, 68%);
+    transition: color ease-in 0.3s;
+  }
+  .desktop-nav a:hover {
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(270, 9%, 17%);
+    font-weight: 700;
+  }
+  /* .banner-image {
+    background: url(images/image-intro-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  .banner-image {
+    display: none;
+  }
+  .banner-content {
+    height: 545px;
+    position: relative;
+  }
+  .banner-content-line {
+    display: block;
+    margin-top: -10em;
+    height: 1px;
+    width: 150px;
+    background-color: hsl(0, 0%, 98%);
+  }
+  .banner-content h1 {
+    font-size: 3.5em;
+    text-align: left;
+    padding-top: 0;
+    margin: 0.625em 0;
+    line-height: 0.8em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+
+  .banner-content p {
+    margin: 20px 0;
+    text-align: left;
+    max-width: 550px;
+  }
+  .center-btn {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    margin-top: 1.7em;
+    z-index: 999;
+  }
+  .banner-content-svg-1,
+  .banner-content-svg-2 {
+    display: none;
+  }
+  .banner-content-svg-3,
+  .banner-content-svg-4 {
+    display: block;
+  }
+
+  .banner-content-svg-3 {
+    position: absolute;
+    top: calc(100% - 231px);
+    left: 0;
+    z-index: -1;
+  }
+  .bg-desktop {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 25vw;
+    height: 440px;
+    overflow: hidden;
+  }
+  .banner-content-svg-4 {
+    height: 100%;
+    margin-top: -60px;
+    width: 100%;
+  }
+  .desktop-bg-image {
+    background-image: url(images/image-intro-desktop.jpg);
+    height: 614px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 90px;
+    z-index: -1;
+  }
+  .main {
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+  }
+  .main-content {
+    padding: 0;
+    margin-top: 16em;
+  }
+
+  .main .line {
+    width: 190px;
+    margin-right: 14em;
+  }
+  .main-content h2 {
+    font-size: 4em;
+    margin-top: 0.4em;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex: 1;
+    gap: 0.7em;
+    margin-top: 3em;
+  }
+  .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .col-12 > h3 {
+    font-size: 1.8em;
+  }
+  .col-12 > p {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .more-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+    flex: 1;
+    height: 250px;
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  .more-content h4 {
+    font-size: 3em;
+    max-width: 420px;
+    text-align: left;
+    margin-top: 0;
+  }
+  .more-content h4 > br {
+    display: none;
+  }
+
+  .more-content .btn {
+    width: 150px;
+    margin-top: 0.5em;
+  }
+  .footer {
+    background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    height: 360px;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .footer-logo > a {
+    margin-top: -5em;
+  }
+  .footer-social {
+    margin-top: -5em;
+  }
+  .footer-line {
+    margin-top: -100px;
+  }
+  .footer-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2em;
+    margin-bottom: 4em;
+
+    padding-right: 15%;
+  }
+  .footer-box-wrapper > div h5 {
+    text-align: left;
+  }
+  .footer-box-wrapper > div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0.5em;
+  }
+}
